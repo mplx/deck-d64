@@ -1,0 +1,26 @@
+[package]
+name = "@mplx/d64"
+version = "0.1.0"
+description = "Read, write, create and format Commodore 1541 D64 disk images: CBM DOS 2A directories, BAM allocation, PETSCII names, and the 40-track SpeedDOS / DolphinDOS / PrologicDOS extensions"
+license = "LGPL-3.0-only"
+authors = ["mplx <developer@mplx.eu>"]
+capabilities = []
+keywords = [
+    "d64",
+    "commodore",
+    "c64",
+    "1541",
+    "cbm-dos",
+    "disk-image",
+    "petscii",
+    "retrocomputing",
+]
+
+[package.urls]
+deck = "https://raw.githubusercontent.com/mplx/deck-d64/main/deck.toml"
+homepage = "https://github.com/mplx/deck-d64"
+manual = "https://mplx.github.io/deck-d64/"
+
+[engines]
+jennifer = ">=0.25.0"
+jennifer-tiny = ">=0.25.0"

@@ -1,0 +1,33 @@
+# Grimoire book configuration for the @mplx/d64 documentation.
+
+[book]
+title = "@mplx/d64"
+description = "Read, write, create and format Commodore 1541 D64 disk images from Jennifer."
+language = "en"
+src = "docs"
+
+[build]
+out = "site"
+clean = true
+jobs = 0
+
+[html]
+theme = "nordic"
+mode = "auto"
+navPosition = "left"
+tocPosition = "right"
+tocDepth = 3
+sectionNumbers = true
+titleUrl = "https://mplx.github.io/deck-d64/"
+repoUrl = "https://github.com/mplx/deck-d64"
+repoLabel = "Source"
+editUrl = "https://github.com/mplx/deck-d64/edit/main/docs/{path}"
+
+[highlight]
+enabled = true
+
+[search]
+enabled = true
+
+[pdf]
+enabled = false
